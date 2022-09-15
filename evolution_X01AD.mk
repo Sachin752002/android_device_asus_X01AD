@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Pixel Launcher Mod
 $(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
-PIXEL_LAUNCHER_VARIANT := tawaret
+PIXEL_LAUNCHER_VARIANT := khonsu
 ICONS_VARIANT := teamfilesicons
 AOSP_ENHANCER := true
 
