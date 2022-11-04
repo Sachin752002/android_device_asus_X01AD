@@ -28,6 +28,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 RICE_MAINTAINER := ⚡Nishant⚡
+RICE_DEVICE := ASUS_X01AD
 RICE_CHIPSET := SDM632
 SUSHI_BOOTANIMATION := 720
 TARGET_SUPPORTS_QUICK_TAP := true
