@@ -25,11 +25,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 PRODUCT_COMPRESSED_APEX := false
 
 # Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+# $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.heapminfree=4m \
-    dalvik.vm.heapstartsize=16m
+# PRODUCT_PROPERTY_OVERRIDES += \
+#   dalvik.vm.heapminfree=4m \
+#   dalvik.vm.heapstartsize=16m
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
