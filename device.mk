@@ -28,8 +28,8 @@ PRODUCT_COMPRESSED_APEX := false
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # PRODUCT_PROPERTY_OVERRIDES += \
-#   dalvik.vm.heapminfree=4m \
-#   dalvik.vm.heapstartsize=16m
+    dalvik.vm.heapminfree=4m \
+    dalvik.vm.heapstartsize=16m
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
