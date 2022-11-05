@@ -22,20 +22,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/asus/X01AD/device.mk)
 
 # Inherit some common lineage OS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-RICE_MAINTAINER := ⚡Nishant⚡
-RICE_DEVICE := ASUS_X01AD
-RICE_CHIPSET := SDM632
-SUSHI_BOOTANIMATION := 720
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_BLUR := true
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1520
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifiers.
-PRODUCT_NAME := lineage_X01AD
+PRODUCT_NAME := derp_X01AD
 PRODUCT_DEVICE := X01AD
 PRODUCT_MANUFACTURER := asus
 PRODUCT_BRAND := asus
