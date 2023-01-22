@@ -733,3 +733,7 @@ on property:vendor.gpu.available_frequencies=*
 # Restrict permissions to socket file
     # to hide Magisk & co.
     chmod 440 /proc/net/unix
+
+# Workarround for cache
+    rm /data/resource-cache
+    rm /data/system/package_cache
