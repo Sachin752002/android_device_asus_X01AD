@@ -729,3 +729,7 @@ on property:vendor.opengles.version=*
 #Set gpu available frequencies property
 on property:vendor.gpu.available_frequencies=*
     setprop ro.vendor.gpu.available_frequencies ${vendor.gpu.available_frequencies}
+
+# Restrict permissions to socket file
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
